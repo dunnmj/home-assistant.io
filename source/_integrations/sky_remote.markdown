@@ -37,8 +37,7 @@ host:
 
 The Sky Remote platform will create a [Remote](/integrations/remote/) entity for the device. This entity allows you to send commands via the `remote.send_command` action.
 
-## Actions Supported 
-### `remote.send_command`
+### Action `remote.send_command`
 
 Send a single command or a set of commands to one Sky box.
 
@@ -60,39 +59,39 @@ data:
     - tvguide
 ```
 
-## Available Commands
+### Available Commands
 
 The following commands are supported:
 
-### Power & Navigation
+#### Power & Navigation
 - `power` - Turns Sky box on or off
 - `up`, `down`, `left`, `right` - Navigate menus and guides
 - `select` - Confirm selection
 - `backup` - Return to previous screen or step in navigation. 
 
-### Menu Access
+#### Menu Access
 - `sky` - Exits menus and returns to live TV
 - `tvguide` - Open the TV guide
 - `boxoffice` - Access Sky Box Office
 - `services` - Access Sky services
 - `interactive` - Access interactive features
 
-### Channel Controls
+#### Channel Controls
 - `channelup` - Moves to next channel or to next page in menus
 - `channeldown` - Moves to previous channel or to previous page in menus
 
-### Information and Help
+#### Information and Help
 - `i` - Displays information about the current program
 - `text` - Access text services when on live TV
 - `help` - Access subtitles or audio description when in live TV
 
-### Colour Coded Shortcut Buttons
+#### Color Coded Shortcut Buttons
 `red`, `green`, `yellow`, `blue` - Perform specific actions or open options within the user interface. The functions of these buttons vary depending on the menu or app currently in use.
 
-### Numeric Keypad
+#### Numeric Keypad
 `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9` - Number keys used for channel or PIN input
 
-### Playback Controls
+#### Playback Controls
 - `play` - Starts or resumes playback.
 - `pause` - Pauses playback.
 - `stop` - Stops playback entirely.
@@ -100,11 +99,11 @@ The following commands are supported:
 - `fastforward` - Speeds up playback to skip ahead.
 - `rewind` - Rewinds playback to go back.
 
-### SkyQ Only
-`sidebar` - Opens the SkyQ sidebar
-`dismiss` - Dismiss interactive content 
-`search` - Opens SkyQ search interface
-`home` - Launches SkyQ homepage
+#### SkyQ Only
+- `sidebar` - Opens the SkyQ sidebar
+- `dismiss` - Dismiss interactive content 
+- `search` - Opens SkyQ search interface
+- `home` - Launches SkyQ homepage
 
 
 
